@@ -1,0 +1,12 @@
+{
+  "name": "document-workflow",
+  "owner": { "name": "AYESA" },
+  "metadata": { "description": "Plugin de documentación Office basada en plantillas.", "version": "0.1.0" },
+  "plugins": [
+    {
+      "name": "document-workflow",
+      "source": ".",
+      "description": "Genera docx/pptx/xlsx/pdf respetando la plantilla corporativa."
+    }
+  ]
+}

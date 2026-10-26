@@ -1,0 +1,9 @@
+{
+  "name": "document-workflow",
+  "description": "Crea y edita documentos Office (docx, pptx, xlsx, pdf) adaptándolos a una plantilla corporativa. Funciona sin Python previo: instala uv automáticamente.",
+  "version": "0.1.0",
+  "author": { "name": "AYESA" },
+  "keywords": ["docx", "pptx", "xlsx", "pdf", "templates", "office"],
+  "skills": "skills",
+  "rules": "rules"
+}

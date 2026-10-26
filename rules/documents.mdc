@@ -1,0 +1,9 @@
+---
+description: Generación y edición de documentos Office
+alwaysApply: false
+globs: ["**/*.docx", "**/*.pptx", "**/*.xlsx", "**/*.pdf"]
+---
+
+- Para crear o editar docx, pptx o xlsx a partir de una plantilla, usa la skill `template-adapt`.
+- Scripts de un solo uso, vistas previas (PDF/PNG) y copias de prueba van SIEMPRE a la carpeta temporal del sistema (`document-workflow/`), nunca al proyecto. Solo el entregable final va a la carpeta que indique el usuario. Borra los temporales al terminar.
+- No asumas Python, Node ni LibreOffice instalados. Usa `bootstrap/run.ps1` (Windows) o `bootstrap/run.sh` (macOS).
